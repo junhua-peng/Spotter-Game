@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{c751f66b-5c97-4e4e-97cb-d114fac9104e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{ec382bbd-859d-4e21-8311-37571db58f33}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{de1fb7ea-92ba-4921-9ba6-b43049791d8b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="include\找茬模式">
+      <UniqueIdentifier>{7b38b35c-526d-4fa0-9e3b-be0f6f58e769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\找茬模式">
+      <UniqueIdentifier>{721e5422-ba60-4dee-bdb4-0fd17dc6f2c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Nitpick.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Nitpick.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="pick_pattern.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Clover_ModeScene.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Mirror_ModeScene.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_ModeScene.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Puzzle_ModeScene.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Sliding_ModeScene.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Clover_ModeLayer.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Mirror_ModeLayer.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Puzzle_ModeLayer.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Sliding_ModeLayer.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_ModeLayer.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Anti_TraditionModeLayer.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Anti_TraditionModeScene.h">
+      <Filter>include\找茬模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SlidingLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGame.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene1.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer1.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="pick_pattern.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_ModeScene.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Mirror_ModeScene.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Sliding_ModeScene.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Clover_ModeScene.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle_ModeScene.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Clover_ModeLayer.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Mirror_ModeLayer.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_ModeLayer.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle_ModeLayer.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Sliding_ModeLayer.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Anti_TraditionModeLayer.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Anti_TraditionModeScene.cpp">
+      <Filter>source\找茬模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SlidingLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScore.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStore.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

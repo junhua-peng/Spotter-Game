@@ -1,0 +1,68 @@
+﻿生成启动时间为 2013/12/25 19:35:55。
+     1>项目“D:\coco\Nitpick\Nitpick\proj.win32\Nitpick.win32.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\Nitpick.win32.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /ID:\coco\Nitpick\cocos2dx /ID:\coco\Nitpick\cocos2dx\include /ID:\coco\Nitpick\cocos2dx\kazmath\include /ID:\coco\Nitpick\cocos2dx\platform\win32 /ID:\coco\Nitpick\cocos2dx\platform\third_party\win32 /ID:\coco\Nitpick\cocos2dx\platform\third_party\win32\OGLES /ID:\coco\Nitpick\external /ID:\coco\Nitpick\CocosDenshion\include /ID:\Boost /ID:\log4cppSDK\include /I"C:\Program Files\VideoLAN\VLC\sdk\include" /IC:\twolame_sdk\include /IC:\ffmpegsdk\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp Anti_TraditionModeLayer.cpp Anti_TraditionModeScene.cpp Clover_ModeLayer.cpp Clover_ModeScene.cpp GameLayer1.cpp GameScene1.cpp GameScore.cpp GameStore.cpp main.cpp Mirror_ModeLayer.cpp Mirror_ModeScene.cpp Normal_ModeLayer.cpp Normal_ModeScene.cpp pick_pattern.cpp Puzzle_ModeLayer.cpp Puzzle_ModeScene.cpp SlidingLayer.cpp Sliding_ModeLayer.cpp Sliding_ModeScene.cpp StartGame.cpp
+         StartGame.cpp
+         Sliding_ModeScene.cpp
+         Sliding_ModeLayer.cpp
+         SlidingLayer.cpp
+         Puzzle_ModeScene.cpp
+         Puzzle_ModeLayer.cpp
+         pick_pattern.cpp
+         Normal_ModeScene.cpp
+         Normal_ModeLayer.cpp
+         Mirror_ModeScene.cpp
+         Mirror_ModeLayer.cpp
+         main.cpp
+         GameStore.cpp
+         GameScore.cpp
+         GameScene1.cpp
+         GameLayer1.cpp
+     1>d:\coco\nitpick\nitpick\proj.win32\gamelayer1.cpp(57): warning C4101: “IsSelect”: 未引用的局部变量
+         Clover_ModeScene.cpp
+         Clover_ModeLayer.cpp
+         Anti_TraditionModeScene.cpp
+         Anti_TraditionModeLayer.cpp
+         正在生成代码...
+         正在编译...
+         AppDelegate.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug.win32\ /nologo /fo"Debug.win32\Nitpick.res" Nitpick.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\coco\Nitpick\Debug.win32\Nitpick.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\coco\Nitpick\Debug.win32\ /LIBPATH:D:\Boost\stage\lib /LIBPATH:D:\log4cppSDK\lib /LIBPATH:"C:\Program Files\VideoLAN\VLC\sdk\lib" /LIBPATH:C:\twolame_sdk\lib /LIBPATH:C:\ffmpegsdk\lib libcocos2d.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib libvlc.lib libvlccore.lib libtwolame_dll.lib twolame_staticD.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib AssetsManagerTest.lib CrystalCraze.lib glew32.lib libBox2D.lib libchipmunk.lib libcocos2d.lib libCocosDenshion.lib libcurl_imp.lib libExtensions.lib libiconv.lib libjpeg.lib libJSBinding.lib liblua.lib libtiff.lib libwebp.lib libzlib.lib lua51.lib MoonWarriors.lib mozjs.lib pthreadVCE2.lib sqlite3.lib TestJavascript.lib WatermelonWithMe.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\Nitpick.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\coco\Nitpick\Debug.win32\Nitpick.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\coco\Nitpick\Debug.win32\Nitpick.win32.lib" /MACHINE:X86 Debug.win32\Nitpick.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Anti_TraditionModeLayer.obj
+         Debug.win32\Anti_TraditionModeScene.obj
+         Debug.win32\Clover_ModeLayer.obj
+         Debug.win32\Clover_ModeScene.obj
+         Debug.win32\GameLayer1.obj
+         Debug.win32\GameScene1.obj
+         Debug.win32\GameScore.obj
+         Debug.win32\GameStore.obj
+         Debug.win32\main.obj
+         Debug.win32\Mirror_ModeLayer.obj
+         Debug.win32\Mirror_ModeScene.obj
+         Debug.win32\Normal_ModeLayer.obj
+         Debug.win32\Normal_ModeScene.obj
+         Debug.win32\pick_pattern.obj
+         Debug.win32\Puzzle_ModeLayer.obj
+         Debug.win32\Puzzle_ModeScene.obj
+         Debug.win32\SlidingLayer.obj
+         Debug.win32\Sliding_ModeLayer.obj
+         Debug.win32\Sliding_ModeScene.obj
+         Debug.win32\StartGame.obj
+     1>libExtensions.lib(CCScrollView.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libExtensions.lib(CCScrollView.obj)”或在“D:\coco\Nitpick\Debug.win32\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Nitpick.win32.vcxproj -> D:\coco\Nitpick\Debug.win32\Nitpick.win32.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\coco\Nitpick\Debug.win32\Nitpick.win32.exe.manifest" /manifest Debug.win32\Nitpick.win32.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\Nitpick.win32.unsuccessfulbuild”。
+         正在对“Debug.win32\Nitpick.win32.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\coco\Nitpick\Nitpick\proj.win32\Nitpick.win32.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:03:42.85
